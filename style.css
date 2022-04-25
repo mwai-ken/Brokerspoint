@@ -519,7 +519,7 @@ form{
 
 @media (max-width:320px){
     .logo{
-        width: 26vw;
+        width: 28vw;
         height: 10vh;
         padding:13px ;
         color: white;
@@ -528,7 +528,7 @@ form{
     }
     .nav h2{
         font-weight: bolder;
-        font-size: 25px;
+        font-size: 22px;
         padding-right: 20%;
         padding-top: 6%;
     }
