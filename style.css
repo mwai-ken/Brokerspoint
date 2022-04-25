@@ -578,3 +578,133 @@ form{
     
     
 }
+@media (max-width:280px){
+    .logo{
+        width: 30vw;
+        height: 10vh;
+        padding:13px ;
+        color: white;
+        background-color: black;
+        border: groove;
+    }
+    .nav h2{
+        font-weight: bolder;
+        font-size: 16px;
+        padding-right: 21%;
+        padding-top: 8%;
+    }
+    .menu-btn{
+        
+        position: fixed;
+        display: block;
+        top: 5%;
+        right: 5%;
+        z-index: 22;
+    }
+    .layer{
+        background: black;
+        height: 100%;
+        width: 80%;
+        position: relative;
+        top: 8%;
+        left: 0;
+        margin-left: 40px;
+      
+    }
+    
+    .layer h3{
+        width: 100%;
+        font-weight: 100;
+        color:white;
+        bottom: 94%;
+        left: 50%;
+        font-size: 26px;
+        transform: translateX(-50%);
+        position: relative;
+        opacity: 2;
+        transition: 0.5s;
+    }
+    .layer:hover h3 {
+       
+    }
+    .layer p{
+        
+        
+        
+    }
+    
+    
+}
+@media (min-width:1024px){
+    .logo{
+        width: 20vw;
+        height: 10vh;
+        padding:13px ;
+        color: white;
+        background-color: black;
+        border: groove;
+    }
+    .nav h2{
+        font-weight: bolder;
+        font-size: 25px;
+        padding-right: 20%;
+        padding-top: 6%;
+    }
+    .nav-menu{
+        position: fixed;
+        inset: 0 0 0 30%;
+        background: rgba(104, 109, 109, 0.6);
+        display: flex;
+        flex-direction: column;
+        padding: min(30vh,10rem) 20px ;
+        z-index: 21;
+        transform: translateX(100%);
+        backdrop-filter: blur(1rem);
+        transition: 0.5s ease-in-out;
+    }
+    .nav-menu.active{
+        transform: translateX(0%);
+    }
+    .menu-btn{
+        
+        position: fixed;
+        display: block;
+        top: 7%;
+        right: 5%;
+        z-index: 22;
+    }
+   
+    .layer{
+        background: black;
+        height: 100%;
+        width: 80%;
+        position: relative;
+        top: 8%;
+        left: 0;
+        margin-left: 40px;
+      
+    }
+    
+    .layer h3{
+        width: 100%;
+        font-weight: 100;
+        color:white;
+        bottom: 94%;
+        left: 50%;
+        font-size: 26px;
+        transform: translateX(-50%);
+        position: relative;
+        opacity: 2;
+        transition: 0.5s;
+    }
+    .layer:hover h3 {
+       
+    }
+    .layer p{
+        
+        
+        
+    }
+    
+    
+}
