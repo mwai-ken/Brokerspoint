@@ -568,7 +568,7 @@ form{
     }
     
     
-    @media (max-width:418px){
+    @media (max-width:460px){
         .logo{
             width: 21vw;
             height: 10vh;
