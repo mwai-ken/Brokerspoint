@@ -517,7 +517,7 @@ form{
     
 }
 
-@media (max-width:375px){
+@media (max-width:350px){
     .logo{
         width: 26vw;
         height: 10vh;
@@ -568,7 +568,7 @@ form{
     }
     
     
-    @media (max-width:460px){
+    @media (max-width:420px){
         .logo{
             width: 22vw;
             height: 10vh;
