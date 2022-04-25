@@ -364,9 +364,7 @@ form{
     color: white;
 }
 
-@media (max-width:920px){
 
-}
 
 
 @media (max-width:820px) {
@@ -519,7 +517,7 @@ form{
     
 }
 
-@media (min-width:375px){
+@media (max-width:375px){
     .logo{
         width: 20vw;
         height: 10vh;
@@ -534,14 +532,7 @@ form{
         padding-right: 20%;
         padding-top: 6%;
     }
-    .menu-btn{
-        
-        position: fixed;
-        display: block;
-        top: 5%;
-        right: 5%;
-        z-index: 22;
-    }
+    
     .layer{
         background: black;
         height: 100%;
@@ -571,14 +562,7 @@ form{
     .layer p{
        
     }
-    .menu-btn{
-        
-        position: fixed;
-        display: block;
-        top: 7%;
-        right: 5%;
-        z-index: 22;
-    }
+    
         
         
     }
