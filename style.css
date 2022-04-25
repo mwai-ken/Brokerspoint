@@ -519,7 +519,7 @@ form{
 
 @media (max-width:320px){
     .logo{
-        width: 28vw;
+        width: 22vw;
         height: 10vh;
         padding:13px ;
         color: white;
@@ -611,7 +611,8 @@ form{
            
         }
         .layer p{
- /*       }
+      }
+
  @media (max-width:315px){
     .logo{
         width: 30vw;
@@ -627,14 +628,7 @@ form{
         padding-right: 21%;
         padding-top: 8%;
     }
-    .menu-btn{
-        
-        position: fixed;
-        display: block;
-        top: 5%;
-        right: 5%;
-        z-index: 22;
-    }
+    
     .layer{
         background: black;
         height: 100%;
