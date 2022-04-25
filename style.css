@@ -537,9 +537,7 @@ form{
         background: black;
         height: 100%;
         width: 80%;
-        position: relative;
-        top: 8%;
-        left: 0;
+        
         margin-left: 40px;
       
     }
@@ -548,11 +546,10 @@ form{
         width: 100%;
         font-weight: 100;
         color:white;
-        bottom: 94%;
+       
         left: 50%;
-        font-size: 26px;
+        font-size: 10px;
         transform: translateX(-50%);
-        position: relative;
         opacity: 2;
         transition: 0.5s;
     }
