@@ -583,14 +583,7 @@ form{
             padding-right: 20%;
             padding-top: 6%;
         }
-        .menu-btn{
-            
-            position: fixed;
-            display: block;
-            top: 5%;
-            right: 5%;
-            z-index: 22;
-        }
+        
         .layer{
             background: black;
             height: 100%;
