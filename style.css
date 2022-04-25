@@ -79,16 +79,14 @@ body{
 }
 /*-------- menu-btn  -----*/
 .menu-btn{
-    position: relative;
-    top: 27%;
-    right: 17%;
+   
     display: none;
     justify-content: center;
     align-items: center;
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
-    z-index: 1;
+    
 }
 .menu-btn_lines,
 .menu-btn_lines::before,
@@ -410,7 +408,6 @@ form{
         transform: translateX(0%);
     }
     .menu-btn{
-        
         position: fixed;
         display: block;
         top: 7%;
@@ -521,6 +518,7 @@ form{
     }
     
 }
+/*
 @media (min-width:375px){
     .logo{
         width: 20vw;
@@ -586,7 +584,7 @@ form{
     }
     
     
-    @media (max-width:418px){
+  /*  @media (max-width:418px){
         .logo{
             width: 21vw;
             height: 10vh;
@@ -636,7 +634,7 @@ form{
            
         }
         .layer p{
-        }
+ /*       }
  @media (max-width:315px){
     .logo{
         width: 30vw;
@@ -684,11 +682,6 @@ form{
         transition: 0.5s;
     }
     
-    .layer p{
-        
-        
-        
-    }
-    
+   
     
 }
