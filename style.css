@@ -586,7 +586,7 @@ form{
     }
     
     
-    @media (max-width:318px){
+    @media (max-width:418px){
         .logo{
             width: 21vw;
             height: 10vh;
@@ -636,8 +636,8 @@ form{
            
         }
         .layer p{
-           
-@media (min-width:280px){
+        }
+ @media (max-width:315px){
     .logo{
         width: 30vw;
         height: 10vh;
@@ -692,7 +692,7 @@ form{
     
     
 }
-@media (min-width:1024px){
+@media (max-width:1024px){
     .logo{
         width: 20vw;
         height: 10vh;
