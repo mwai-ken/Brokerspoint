@@ -561,6 +561,42 @@ form{
     .layer p{
        
     }
+    .contact{
+        width: 90%;
+        height: 80vh;
+        margin: auto;
+        text-align: center;
+        padding-top: 79px;
+        position: relative;
+        overflow: hidden;
+    }
+    .contact-container{
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 27px;
+    }
+    form{
+       
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 40vh;
+        background: lightslategray;
+        border: 2px solid black;
+        padding: 2px;
+    }
+    .contacts{
+    
+        width: 69vw;
+        height: 35vh;
+        background: #fff3f3;
+        margin: 29px;
+    }
+    
     
         
         
@@ -609,7 +645,42 @@ form{
         .layer:hover h3 {
            
         }
-        .layer p{
+        .contact{
+            width: 90%;
+            height: 80vh;
+            margin: auto;
+            text-align: center;
+            padding-top: 79px;
+            position: relative;
+            overflow: hidden;
+        }
+        .contact-container{
+            width: 90vw;
+            height: 40vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            padding-left: 27px;
+        }
+        form{
+           
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+            height: 40vh;
+            background: lightslategray;
+            border: 2px solid black;
+            padding: 2px;
+        }
+        .contacts{
+        
+            width: 69vw;
+            height: 35vh;
+            background: #fff3f3;
+            margin: 29px;
+        }
+        
       }
 
  @media (max-width:315px){
@@ -652,6 +723,41 @@ form{
         transition: 0.5s;
     }
     
-   
+    .contact{
+        width: 90%;
+        height: 80vh;
+        margin: auto;
+        text-align: center;
+        padding-top: 79px;
+        position: relative;
+        overflow: hidden;
+    }
+    .contact-container{
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 27px;
+    }
+    form{
+       
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 40vh;
+        background: lightslategray;
+        border: 2px solid black;
+        padding: 2px;
+    }
+    .contacts{
+    
+        width: 69vw;
+        height: 35vh;
+        background: #fff3f3;
+        margin: 29px;
+    }
+    
     
 }
