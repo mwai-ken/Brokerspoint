@@ -733,7 +733,7 @@ form{
         overflow: hidden;
     }
     .contact-container{
-        width: 90vw;
+        width: 80vw;
         height: 40vh;
         display: flex;
         justify-content: space-between;
@@ -753,7 +753,7 @@ form{
     }
     .contacts{
     
-        width: 69vw;
+        width: 60vw;
         height: 35vh;
         background: #fff3f3;
         margin: 29px;
