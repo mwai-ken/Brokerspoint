@@ -20,5 +20,5 @@ function init() {
       main.style.opacity = 1;
     },3000);
 }
-
+/*-----calling the function ---*/
 init();
