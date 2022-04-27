@@ -601,6 +601,9 @@ form{
         padding-top: 20px;
         padding-left: 27px;
     }
+    .form h1{
+        font-size: 7px;
+    }
     form{
        
         display: flex;
@@ -617,6 +620,9 @@ form{
         height: 30vh;
         background: #fff3f3;
         margin: 29px;
+    }
+    .contacts h1{
+        font-size: small;
     }
     
     
@@ -684,6 +690,9 @@ form{
             padding-top: 20px;
             padding-left: 27px;
         }
+        .form h1{
+            font-size: 7px;
+        }
         form{
            
             display: flex;
@@ -694,12 +703,16 @@ form{
             border: 2px solid black;
             padding: 2px;
         }
+
         .contacts{
         
             width: 69vw;
             height: 35vh;
             background: #fff3f3;
             margin: 29px;
+        }
+        .contacts h1{
+            font-size: small;
         }
         
       }
@@ -772,13 +785,18 @@ form{
         border: 2px solid black;
         padding: 2px;
     }
-    
+    .form h1{
+        font-size: 7px;
+    }
     .contacts{
     
         width: 50vw;
         height: 30vh;
         background: #fff3f3;
         margin: 29px;
+    }
+    .contacts h1{
+        font-size: small;
     }
     
     
