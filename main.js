@@ -2,7 +2,7 @@ const menubtn = document.querySelector(".menu-btn");
 const nav = document.querySelector(".nav-menu");
 const loader = document.querySelector(".loader");
 const main = document.querySelector(".main");
-
+const topbtn = document.querySelector(".scroll-to-top");
 
 /*hamburger*/
 menubtn.addEventListener('click', ()=>{
@@ -22,3 +22,8 @@ function init() {
 }
 /*-----calling the function ---*/
 init();
+
+
+topbtn.addEventListener('click', () => {
+     document.body.scrolltop = 0;
+});
