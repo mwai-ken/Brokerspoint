@@ -2,16 +2,34 @@
     margin:0;
     padding:0;
 }
+body{
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
+li{
+   list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 229, 229);
+    font-size: 20px;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+/*container*/
 .container{
     width: 100%;
     height: 100vh;
-    background:  url('assets/DJI_0102-1024x767.jpg');
+    background: url('assets/4.jpg');
     color: whitesmoke;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*  card  */
 .card{
     width: 710px;
     height: 610px;
@@ -107,4 +125,12 @@ span{
     text-align: center;
     font-size: 13px;
     margin-top: 8px;
+}
+@media (min-width:800px) {
+    .card{
+        width: 910px;
+        height: 710px;
+        box-shadow: 0 0 25px;
+        perspective: 1000px;
+    }
 }
