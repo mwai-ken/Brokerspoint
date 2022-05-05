@@ -55,6 +55,7 @@ a{
     box-sizing: border-box;
     backface-visibility: hidden;
 }
+
 .card-back{
     transform: rotateY(180deg);
 }
